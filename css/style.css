@@ -1,0 +1,33 @@
+/* Mengatur latar belakang halaman */
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f8f9fa; /* Warna cadangan untuk browser yang tidak mendukung background-image */
+    padding-top: 56px; /* Menambahkan padding atas untuk memberi ruang bagi navbar yang fixed */
+}
+
+/* Mengatur margin bawah pada navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Mengatur ukuran gambar dalam carousel */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    max-height: 20px; /* Menyesuaikan tinggi maksimum gambar untuk tampilan yang lebih proporsional */
+}
+
+/* Mengatur margin pada kartu */
+.card {
+    margin: 20px 0;
+}
+
+/* Mengatur gaya footer */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
